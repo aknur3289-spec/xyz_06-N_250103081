@@ -1,0 +1,49 @@
+package css217;
+public class BulbAdapter implements SmartDevice {
+    private final LegacyBulb bulb;
+
+    public BulbAdapter(LegacyBulb bulb) {
+        if (bulb == null) {
+            throw new IllegalArgumentException("Bulb is null");
+        }
+        this.bulb = bulb;
+        
+    }
+
+    @Override
+    public void turnOn() {
+        bulb.setBrightness(255);
+    }
+
+    @Override
+    public void turnOff() {
+        bulb.setBrightness(0);
+    }
+
+    @Override
+    public boolean isOn() {
+        return bulb.hasPower() && bulb.readBrightness() > 0;
+    }
+
+    @Override
+    public int getPowerPercent() {
+        if (!bulb.hasPower()) {
+            return 0;
+        }
+
+        int raw = bulb.readBrightness();
+
+        if (raw == 0) {
+            return 0;
+        }
+
+        int percent = (raw * 100) / 255;
+        percent = percent + 1;   // K = 1
+
+        if (percent > 100) {
+            percent = 100;
+        }
+
+        return percent;
+    }
+}
