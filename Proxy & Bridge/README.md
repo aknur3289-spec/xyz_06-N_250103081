@@ -1,28 +1,41 @@
-# Proxy & Bridge
+# Proxy & Bridge - Tasks 1-6
 
-Completed Java lab based on `proxy_boilerplate.zip` and `bridge_boilerplate.zip`.
-Original supplied files and the Proxy diagram are preserved under `boilerplate/`.
+All six worksheet tasks are completed using plain Java without external libraries.
+Tasks 1 and 2 extend the supplied Proxy examples; Tasks 4 and 5 extend the supplied
+device/remote Bridge example. Tasks 3 and 6 implement the worksheet mini-challenges.
 
-| Folder | Contents |
-| --- | --- |
-| task1-image-proxy | Task 1: role check before lazy loading the image |
-| task2-video-proxy | Task 2: view counter and lazy video loading |
-| task3-firewall | Task 3: school Internet protection proxy |
-| tasks4-5-device-bridge | Tasks 4-5: original TV/Radio/remote classes plus SmartLight and PartyRemote |
-| task6-weapon-bridge | Task 6: Knight/Wizard with Sword/MagicWand |
-| example-message-bridge | Original runnable message/sender Bridge example |
-| boilerplate | Unmodified files from both supplied archives |
+## Tasks
 
-Each example has its own Main.java because the supplied examples reuse class names.
-Compile and run one folder at a time, for example:
+| Task | Exercise | Source file |
+| --- | --- | --- |
+| Task 1 | The Bouncer: ADMIN/GUEST image protection and lazy loading | [Main.java](<task1-image-proxy/Main.java>) |
+| Task 2 | The View Counter: audit counter and lazy video loading | [Main.java](<task2-video-proxy/Main.java>) |
+| Task 3 | School Wi-Fi Firewall: block gaming.com and socialmedia.com | [Main.java](<task3-firewall/Main.java>) |
+| Task 4 | The New Machine: SmartLight with AdvancedRemote | [Main.java](<tasks4-5-device-bridge/Main.java>) |
+| Task 5 | The New Button: PartyRemote with Radio at volume 100 | [Main.java](<tasks4-5-device-bridge/Main.java>) |
+| Task 6 | RPG Weapon System: Knight/Wizard with Sword or MagicWand | [Main.java](<task6-weapon-bridge/Main.java>) |
+
+Tasks 4 and 5 share one Main.java and are labeled separately in its main method.
+Every task example includes expected-output.txt for checking the console output.
+
+## Run
+
+From the repository root, choose one task folder:
 
 ```cmd
-cd task1-image-proxy
+cd "Proxy & Bridge/task1-image-proxy"
 javac -d bin Main.java
 java -cp bin Main
 ```
 
-Repeat for the other example folders. Each contains expected-output.txt.
-The files under boilerplate are reference originals: their public Main classes
-require renaming the source to Main.java before compiling, so run the prepared
-example folders above instead.
+For another task, open a terminal in its folder and run the same javac and java
+commands. Run each example separately because the examples reuse class names.
+
+## Supplied boilerplate
+
+- boilerplate/proxy_boilerplate/: original proxy_1moodle.java, proxy_2moodle.java and Proxy class diagram.
+- boilerplate/bridge_boilerplate/: original bridge_1.java and bridge_2.java.
+- example-message-bridge/: runnable copy of the original message/sender Bridge example.
+
+Original files are preserved unchanged. Their public Main classes require the
+filename Main.java to compile; use the prepared example folders above.
