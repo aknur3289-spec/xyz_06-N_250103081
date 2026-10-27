@@ -1,0 +1,6 @@
+Smart Light glows bright white.
+[Remote] Mute button pressed!
+Smart Light brightness set to: 0%
+[Party Remote] Pumping up the party!
+Radio starts playing static/music.
+Radio volume knob turned to: 100

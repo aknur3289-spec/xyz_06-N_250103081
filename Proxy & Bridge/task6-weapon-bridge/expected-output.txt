@@ -1,0 +1,2 @@
+Slash! Dealing 20 physical damage.
+Zap! Dealing 35 magic damage.

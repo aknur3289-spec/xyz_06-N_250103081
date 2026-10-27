@@ -1,0 +1,3 @@
+[ACCESS DENIED] You lack permission to view: salary_sheet.png
+--> [SLOW] Reading salary_sheet.png from hard drive...
+Displaying salary_sheet.png on screen!

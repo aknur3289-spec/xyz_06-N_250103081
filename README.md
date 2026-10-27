@@ -26,6 +26,16 @@ xyz_250103081_06-N/
 ├── adapter/
 │   └── Main.java
 │
+├── Proxy & Bridge/
+│   ├── README.md
+│   ├── boilerplate/
+│   ├── task1-image-proxy/
+│   ├── task2-video-proxy/
+│   ├── task3-firewall/
+│   ├── tasks4-5-device-bridge/
+│   ├── task6-weapon-bridge/
+│   └── example-message-bridge/
+│
 ├── patterns/
 │   ├── Main.java
 │   │
@@ -116,6 +126,32 @@ The Bridge Pattern separates abstraction from implementation so that both can ch
 - `Shape.java` – Defines the shape abstraction.
 - `Circle.java` – Implements a circle using a color.
 - `Main.java` – Demonstrates the Bridge Pattern.
+
+## Proxy & Bridge Lab Worksheet
+
+**Location:** [Proxy & Bridge](<Proxy & Bridge/README.md>)
+
+This folder contains all six completed worksheet tasks using the supplied
+`proxy_boilerplate.zip` and `bridge_boilerplate.zip` examples. Original boilerplate
+files and the Proxy class diagram are included in `boilerplate/`.
+
+- Task 1: image protection proxy with ADMIN/GUEST access.
+- Task 2: video proxy with an audit view counter and lazy loading.
+- Task 3: school Internet firewall proxy.
+- Tasks 4-5: SmartLight and PartyRemote added to the original device/remote Bridge.
+- Task 6: RPG heroes and interchangeable weapons using Bridge.
+- The original message/sender Bridge example is also included as a runnable demo.
+
+Each example has its own `Main.java` and `expected-output.txt`. Run examples
+separately to avoid duplicate class names:
+
+```cmd
+cd "Proxy & Bridge/task1-image-proxy"
+javac -d bin Main.java
+java -cp bin Main
+```
+
+See the folder README for all example locations and run instructions.
 
 ## Technologies Used
 

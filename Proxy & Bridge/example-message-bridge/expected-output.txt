@@ -1,0 +1,3 @@
+Sending via Email: Server backup finished.
+Sending via SMS: [URGENT ALERT] Server is on fire!
+Sending via Email: [URGENT ALERT] Database connection lost!
