@@ -1,3 +1,5 @@
+// Task 6: RPG Game Weapon System - Bridge
+
 interface Weapon {
     void use();
 }

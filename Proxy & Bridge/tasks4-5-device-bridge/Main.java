@@ -1,3 +1,5 @@
+// Tasks 4 and 5: Smart Light and Party Remote - Bridge
+
 
 class SmartLight implements Device {
     public void turnOn() {
@@ -141,10 +143,12 @@ class AdvancedRemote extends BasicRemote {
 // ==========================================
 public class Main {
     public static void main(String[] args) {
+        // Task 4: Pair the new SmartLight with the existing remote.
         Device light = new SmartLight();
         AdvancedRemote remote = new AdvancedRemote(light);
         remote.powerOn();
         remote.mute();
+        // Task 5: Use the new PartyRemote with the existing Radio.
         new PartyRemote(new Radio()).partyMode();
     }
 }

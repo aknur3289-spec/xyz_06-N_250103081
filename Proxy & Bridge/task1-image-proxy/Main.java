@@ -1,3 +1,5 @@
+// Task 1: The Bouncer - Protection Proxy
+
 interface Image {
     void show();
 }
