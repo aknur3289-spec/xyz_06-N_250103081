@@ -1,3 +1,15 @@
+import decorator.Pizza;
+import decorator.Pineapple;
+import decorator.Olives;
+import decorator.Cheese;
+import decorator.PlainPizza;
+import proxy.Video;
+import proxy.VideoProxy;
+import bridge.Shape;
+import bridge.Circle;
+import bridge.Red;
+import bridge.Blue;
+
 public class Main {
     public static void main(String[] args) {
 
