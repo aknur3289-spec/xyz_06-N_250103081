@@ -14,60 +14,16 @@ Each pattern demonstrates how classes and objects can be organized to create fle
 
 ```text
 xyz_06-N_250103081/
-│
-├── Main.java
-├── BulbAdapter.java
-├── LegacyBulb.java
-├── LegacyThermostat.java
-├── ModernHub.java
-├── SmartDevice.java
-├── ThermostatAdapter.java
-│
-├── adapter/
-│   └── Main.java
-│
-├── Proxy & Bridge/
-│   ├── README.md
-│   ├── boilerplate/
-│   ├── task1-image-proxy/
-│   ├── task2-video-proxy/
-│   ├── task3-firewall/
-│   ├── tasks4-5-device-bridge/
-│   ├── task6-weapon-bridge/
-│   └── example-message-bridge/
-│
-├── decorator/
-│   ├── Main.java
-│   │
-│   ├── decorator/
-│   │   ├── Main.java
-│   │   ├── Pizza.java
-│   │   ├── PlainPizza.java
-│   │   ├── PizzaDecorator.java
-│   │   ├── Cheese.java
-│   │   ├── Olives.java
-│   │   └── Pineapple.java
-│   │
-│   ├── proxy/
-│   │   ├── Main.java
-│   │   ├── Video.java
-│   │   ├── RealVideo.java
-│   │   └── VideoProxy.java
-│   │
-│   └── bridge/
-│       ├── Main.java
-│       ├── Shape.java
-│       ├── Color.java
-│       ├── Circle.java
-│       ├── Red.java
-│       └── Blue.java
-│
-└── README.md
+|-- adapter/                 # Adapter source files and run instructions
+|-- decorator/               # Existing Decorator, Proxy and Bridge examples
+|-- Proxy & Bridge/          # Worksheet Tasks 1-6 and original boilerplate
+|-- .gitignore
+`-- README.md
 ```
 
 ## 1. Adapter Pattern
 
-**Location:** Root directory and `adapter/`
+**Location:** [adapter/](adapter/README.md)
 
 The Adapter Pattern allows incompatible interfaces to work together.
 
@@ -79,6 +35,13 @@ The Adapter Pattern allows incompatible interfaces to work together.
 - `ThermostatAdapter.java` – Adapts the legacy thermostat.
 - `ModernHub.java` – Manages smart devices.
 - `Main.java` – Demonstrates the Adapter Pattern.
+
+Run the Adapter example from the repository root:
+
+```cmd
+javac -d adapter/bin adapter/*.java
+java -cp adapter/bin css217.Main
+```
 
 ## 2. Decorator Pattern
 
