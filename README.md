@@ -36,7 +36,7 @@ xyz_250103081_06-N/
 │   ├── task6-weapon-bridge/
 │   └── example-message-bridge/
 │
-├── patterns/
+├── decorator/
 │   ├── Main.java
 │   │
 │   ├── decorator/
@@ -82,7 +82,7 @@ The Adapter Pattern allows incompatible interfaces to work together.
 
 ## 2. Decorator Pattern
 
-**Location:** `patterns/decorator/`
+**Location:** `decorator/decorator/`
 
 The Decorator Pattern allows additional features to be added dynamically without changing the original object.
 
@@ -99,7 +99,7 @@ The Decorator Pattern allows additional features to be added dynamically without
 
 ## 3. Proxy Pattern
 
-**Location:** `patterns/proxy/`
+**Location:** `decorator/proxy/`
 
 The Proxy Pattern provides a substitute object that controls access to another object.
 
@@ -113,7 +113,7 @@ The Proxy Pattern provides a substitute object that controls access to another o
 
 ## 4. Bridge Pattern
 
-**Location:** `patterns/bridge/`
+**Location:** `decorator/bridge/`
 
 The Bridge Pattern separates abstraction from implementation so that both can change independently.
 
