@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Task 1",
+      "request": "launch",
+      "mainClass": "task1.Task1Runner",
+      "vmArgs": "-Duser.language=en -Duser.country=US"
+    },
+    {
+      "type": "java",
+      "name": "Task 2",
+      "request": "launch",
+      "mainClass": "task2.Task2Runner",
+      "vmArgs": "-Duser.language=en -Duser.country=US"
+    },
+    {
+      "type": "java",
+      "name": "Task 3",
+      "request": "launch",
+      "mainClass": "task3.Task3Runner",
+      "vmArgs": "-Duser.language=en -Duser.country=US"
+    },
+    {
+      "type": "java",
+      "name": "Task 4",
+      "request": "launch",
+      "mainClass": "task4.Task4Runner",
+      "vmArgs": "-Duser.language=en -Duser.country=US"
+    },
+    {
+      "type": "java",
+      "name": "Task 5",
+      "request": "launch",
+      "mainClass": "task5.Task5Runner",
+      "vmArgs": "-Duser.language=en -Duser.country=US"
+    },
+    {
+      "type": "java",
+      "name": "Verification tests",
+      "request": "launch",
+      "mainClass": "LabTests"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Validation: 2026-11-03
+Compiler: javac 25, --release 8, UTF-8, no external dependencies
+LabTests: PASS: 32 behavioral checks
+Task1Runner: PASS (326 UTF-8 bytes; skeleton decorator order)
+Task2Runner: PASS (network fetch, cache hit, expiry, network fetch; AAPL $183.00)
+Task3Runner: PASS (night emergency delivered; night digest suppressed; day digest delivered)
+Task4Runner: PASS (base $125.00; final $157.33)
+Task5Runner: PASS (admin S3 video: 4 bytes; guest NFS audio: blocked)
+All processes exited with code 0.
