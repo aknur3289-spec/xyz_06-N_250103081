@@ -8,6 +8,8 @@
 
 This repository contains Java implementations of four Structural Design Patterns: Adapter, Decorator, Proxy, and Bridge.
 
+The Week 10 lab also uses Strategy and combines patterns in five practical tasks.
+
 Each pattern demonstrates how classes and objects can be organized to create flexible, reusable, and maintainable code.
 
 ## Project Structure
@@ -17,6 +19,7 @@ xyz_06-N_250103081/
 |-- adapter/                 # Adapter source files and run instructions
 |-- decorator/               # Existing Decorator, Proxy and Bridge examples
 |-- Proxy & Bridge/          # Worksheet Tasks 1-6 and original boilerplate
+|-- week10/                  # Five tasks combining design patterns, with tests
 |-- .gitignore
 `-- README.md
 ```
@@ -120,6 +123,32 @@ java -cp bin Main
 ```
 
 See the [lab README](<Proxy & Bridge/README.md>) for instructions and boilerplate details.
+
+## Week 10 — Applied Design Patterns Lab
+
+**Location:** [week10/](week10/README.md)
+
+Five Java tasks using the standard library only:
+
+| Task | Example | Patterns |
+| --- | --- | --- |
+| 1 | JSON/CSV report exporter with Base64 and metadata | Strategy + Decorator |
+| 2 | Legacy stock feed with a TTL price cache | Adapter + Proxy |
+| 3 | Email/SMS alerts with business-hours and emergency policies | Bridge + Strategy |
+| 4 | Currency conversion with gift wrap, delivery and customs fees | Adapter + Decorator |
+| 5 | Video/audio storage with role-based access | Bridge + Proxy |
+
+Open `week10` in VS Code to run the supplied runners. From a PowerShell terminal
+at the repository root:
+
+```powershell
+./week10/run.ps1       # run all five tasks
+./week10/run.ps1 1     # run task 1
+./week10/run.ps1 test  # run the verification tests
+```
+
+The script needs JDK 9 or later and compiles the code for Java 8.
+See the [Week 10 README](week10/README.md) for details and notes about the assignment.
 
 ## Technologies Used
 
