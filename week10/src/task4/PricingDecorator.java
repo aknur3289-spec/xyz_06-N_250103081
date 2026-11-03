@@ -1,6 +1,5 @@
 package task4;
 
-
 public abstract class PricingDecorator implements PricingService {
     protected final PricingService wrappedService;
     public PricingDecorator(PricingService wrappedService) {

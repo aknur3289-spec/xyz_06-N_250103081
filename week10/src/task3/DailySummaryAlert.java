@@ -1,6 +1,5 @@
 package task3;
 
-
 public class DailySummaryAlert extends Alert {
     public DailySummaryAlert(MessageChannel channel, DispatchStrategy strategy) {
         super(channel, strategy);

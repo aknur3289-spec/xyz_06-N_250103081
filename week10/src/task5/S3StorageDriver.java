@@ -1,6 +1,5 @@
 package task5;
 
-
 public class S3StorageDriver implements StorageDriver {
     @Override
     public byte[] loadRawBlob(String resourceUri) {

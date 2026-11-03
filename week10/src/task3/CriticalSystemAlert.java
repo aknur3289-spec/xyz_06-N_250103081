@@ -1,6 +1,5 @@
 package task3;
 
-
 public class CriticalSystemAlert extends Alert {
     public CriticalSystemAlert(MessageChannel channel, DispatchStrategy strategy) {
         super(channel, strategy);

@@ -1,6 +1,5 @@
 package task4;
 
-
 public class GiftWrapDecorator extends PricingDecorator {
     public GiftWrapDecorator(PricingService wrapped) { super(wrapped); }
     @Override

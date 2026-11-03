@@ -1,6 +1,5 @@
 package task4;
 
-
 public class CurrencyOrderAdapter implements PricingService {
     private final LegacyForeignOrder foreignOrder;
     private final LegacyCurrencyConverter converter;

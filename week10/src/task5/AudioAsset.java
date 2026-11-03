@@ -1,6 +1,5 @@
 package task5;
 
-
 public class AudioAsset extends DigitalAsset {
     public AudioAsset(StorageDriver driver, String assetPath) {
         super(driver, assetPath);

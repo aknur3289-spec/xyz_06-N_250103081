@@ -1,6 +1,5 @@
 package task1;
 
-
 public class Base64EncryptDecorator extends ExporterDecorator {
     public Base64EncryptDecorator(Exporter wrappedExporter) {
         super(wrappedExporter);

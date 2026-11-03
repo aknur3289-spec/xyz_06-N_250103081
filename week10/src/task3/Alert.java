@@ -1,6 +1,5 @@
 package task3;
 
-
 public abstract class Alert {
     protected final MessageChannel channel;      // Bridge link to Implementor
     protected final DispatchStrategy strategy;  // Strategy link

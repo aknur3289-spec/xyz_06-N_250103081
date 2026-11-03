@@ -1,6 +1,5 @@
 package task1;
 
-
 public class BaseFileExporter implements Exporter {
     @Override
     public void export(String destination, String data) {

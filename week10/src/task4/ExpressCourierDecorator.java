@@ -1,6 +1,5 @@
 package task4;
 
-
 public class ExpressCourierDecorator extends PricingDecorator {
     public ExpressCourierDecorator(PricingService wrapped) { super(wrapped); }
     @Override

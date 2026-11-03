@@ -1,6 +1,5 @@
 package task4;
 
-
 public class LegacyCurrencyConverter {
     public double convert(double amount, String from, String to) {
         if ("GBP".equalsIgnoreCase(from) && "USD".equalsIgnoreCase(to)) {

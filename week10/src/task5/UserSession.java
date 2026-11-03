@@ -1,6 +1,5 @@
 package task5;
 
-
 public class UserSession {
     private final String username;
     private final String role; // "ADMIN", "ENGINEER", "GUEST"

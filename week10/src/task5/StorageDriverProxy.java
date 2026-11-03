@@ -1,6 +1,5 @@
 package task5;
 
-
 public class StorageDriverProxy implements StorageDriver {
     private final StorageDriver realDriver;
     private final UserSession session;

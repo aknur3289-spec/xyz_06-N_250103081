@@ -1,6 +1,5 @@
 package task1;
 
-
 public class JsonFormatter implements ReportFormatter {
     @Override
     public String format(String title, String[] headers, String[][] rows) {

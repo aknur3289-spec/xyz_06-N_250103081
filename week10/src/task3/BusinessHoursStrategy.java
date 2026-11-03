@@ -1,6 +1,5 @@
 package task3;
 
-
 public class BusinessHoursStrategy implements DispatchStrategy {
     @Override
     public boolean shouldDispatch(int severityLevel, int currentHour) {

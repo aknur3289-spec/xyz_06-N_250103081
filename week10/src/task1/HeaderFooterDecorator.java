@@ -1,6 +1,5 @@
 package task1;
 
-
 public class HeaderFooterDecorator extends ExporterDecorator {
     private final String timestamp;
     public HeaderFooterDecorator(Exporter wrappedExporter, String timestamp) {

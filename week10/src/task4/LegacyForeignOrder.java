@@ -1,6 +1,5 @@
 package task4;
 
-
 public class LegacyForeignOrder {
     private final String orderId;
     private final double gbpAmount;

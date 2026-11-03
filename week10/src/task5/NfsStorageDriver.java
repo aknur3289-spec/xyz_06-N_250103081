@@ -1,6 +1,5 @@
 package task5;
 
-
 public class NfsStorageDriver implements StorageDriver {
     @Override
     public byte[] loadRawBlob(String resourceUri) {

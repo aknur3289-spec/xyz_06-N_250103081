@@ -1,6 +1,5 @@
 package task1;
 
-
 public abstract class ExporterDecorator implements Exporter {
     protected final Exporter wrappedExporter;
     public ExporterDecorator(Exporter wrappedExporter) {

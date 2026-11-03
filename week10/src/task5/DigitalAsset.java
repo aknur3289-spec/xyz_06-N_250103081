@@ -1,6 +1,5 @@
 package task5;
 
-
 public abstract class DigitalAsset {
     protected final StorageDriver driver; // Bridge reference to Implementor
     protected final String assetPath;
